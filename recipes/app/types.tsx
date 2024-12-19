@@ -18,7 +18,7 @@ const RecipeList: React.FC = () => {
 
   // Fetch recipes from an API
   useEffect(() => {
-    fetch('https://api.example.com/recipes') // Replace with your API endpoint
+    fetch('https://api.justsift.com/recipes') // Replace with your API endpoint
       .then((response) => response.json())
       .then((data) => {
         setRecipes(data); // Assuming the API returns an array of Recipe objects
